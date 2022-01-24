@@ -1,4 +1,6 @@
+// @ts-ignore
 import { Document, model, Schema } from "mongoose";
+// @ts-ignore
 import UniqueValidator from "mongoose-unique-validator";
 
 export interface IExam extends Document {

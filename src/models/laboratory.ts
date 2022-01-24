@@ -1,4 +1,6 @@
+// @ts-ignore
 import { Document, model, Schema } from "mongoose";
+// @ts-ignore
 import uniqueValidator from "mongoose-unique-validator";
 export interface ILaboratory extends Document {
   name: string;

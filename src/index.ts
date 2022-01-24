@@ -1,4 +1,5 @@
 import express, { json, urlencoded } from "express";
+// @ts-ignore
 import { connect } from "mongoose";
 import { api } from "./routes";
 import "dotenv/config";

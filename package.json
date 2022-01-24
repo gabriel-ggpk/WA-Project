@@ -2,7 +2,7 @@
   "name": "wa-project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "index",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "nodemon",
@@ -16,13 +16,14 @@
     "express": "^4.17.2",
     "express-async-errors": "^3.1.1",
     "mongoose": "^6.1.7",
+    "mongodb": "*",
     "mongoose-unique-validator": "^3.0.0",
     "node": "^17.3.1"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
-    "@types/mongoose-unique-validator": "^1.0.5",
-    "@types/node": "^17.0.9",
+    "@types/node": "^16.11.7",
+    "@types/mongoose": "*",
     "@typescript-eslint/eslint-plugin": "^5.10.0",
     "@typescript-eslint/parser": "^5.10.0",
     "eslint": "^7.32.0",
