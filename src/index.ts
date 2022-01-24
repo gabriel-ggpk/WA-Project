@@ -10,7 +10,7 @@ import "dotenv/config";
   app.use(json());
   app.use(urlencoded({ extended: true }));
   app.use("/api", api);
-  app.listen(/*APP_ROUTE||*/ 3000, () => {
+  app.listen(process.env.PORT || 3000, () => {
     console.log("listening");
   });
 })();
