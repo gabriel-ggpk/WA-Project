@@ -6,7 +6,9 @@
         "allowJs": true,
         "outDir": "build",
         "strict":true,
-        "noImplicitAny": true
+        "noImplicitAny": true,
+        "esModuleInterop": true
     }
+    
     
 }
