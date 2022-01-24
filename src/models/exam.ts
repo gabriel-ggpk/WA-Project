@@ -10,6 +10,7 @@ export interface IExam extends Document {
   laboratories?: string[];
   removed?: boolean;
 }
+
 const examSchema = new Schema<IExam>({
   name: {
     type: String,

@@ -1,8 +1,3 @@
-import { Router } from "express";
-import { association } from "./association";
-import { exam } from "./exam";
-import { laboratory } from "./laboratory";
-
 /**
  * @swagger
  * components:
@@ -193,8 +188,3 @@ import { laboratory } from "./laboratory";
  *         type: number
  *         description: number of documents that matched the research criteria
  */
-
-export const api = Router()
-  .use("/laboratory", laboratory)
-  .use("/exam", exam)
-  .use("/association", association);
