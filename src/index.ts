@@ -30,6 +30,9 @@ const swaggerJsDoc = require("swagger-jsdoc");
   app.use(urlencoded({ extended: true }));
   app.use("/api-docs", swaggerUI.serve, swaggerUI.setup(specs));
   app.use("/api", api);
+  app.get("/", async (req, res) => {
+    res.send("Check the /api-docs route to see the API's documentation");
+  });
 
   app.listen(process.env.PORT || 3000, () => {
     console.log("listening");
